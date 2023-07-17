@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In Page</title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://c0.wallpaperflare.com/preview/462/963/578/blur-charity-collaboration-community.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            
+            .container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 1px transparent;
+            }
+            
+            .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            }
+            
+            .container input[type="text"],
+            .container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px transparent;
+            box-sizing: border-box;
+            border-radius: 5px;
+            }
+            
+            .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+            
+            .container input[type="submit"]:hover {
+            background-color: #45a049;
+            }
+            
+            .container p {
+            text-align: center;
+            font-weight: 600;
+            }
+            
+            .container a {
+            color: #0066cc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Sign In</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" onclick="windows.loctaion.href = 'Dashboard.html';" value="Sign In">
+            </form>
+            <p>Don't have an account? <a href="Registration.html">Register Now</a></p>
+        </div>
+    </body>
+</html>
