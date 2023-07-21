@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Appreciation Page</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-image: url("https://c0.wallpaperflare.com/preview/462/963/578/blur-charity-collaboration-community.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: #232f3e;
+                padding: 2px;
+                color: #ffffff;
+                text-align: center;
+            }
+            h1{
+                margin-top: 1px;
+                margin-bottom: 1px;
+                cursor: pointer;
+            }
+            .buttons button {
+                background-color: #f0c14b;
+                color: #111;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 7px;
+                cursor: pointer;
+                position: relative;
+                font-weight: bold; 
+                left: 575px;
+                bottom: 35px;
+            }
+
+            .buttons marquee {
+                font-weight: bold;
+            }
+
+            .appreciation{
+                max-width: 40%;
+                border-radius: 25px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid white;
+                background-color: white;
+            }
+
+            .appreciation button{
+                background-color: #f0c14b;
+                color: #111;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 7px;
+                cursor: pointer;
+                position: relative;
+                font-weight: bold; 
+                left: 37%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="buttons">
+              <h1 onclick="window.location.href = 'Dashboard.html';">HelpHive</h1>
+              <button onclick="window.location.href = 'https://sevasahayog.org/';">About Us</button>
+              <marquee scrollamount="15" height="20px">One donation brings smiles to many faces</marquee>
+            </div>
+        </header>
+        <div class="appreciation">
+            <h2>Thanks for your submission</h2>
+            <p>We appreciate your kindness and would like to share the next few steps before your product reaches its 
+                location:-
+                <ol type="a">
+                    <li>Our team will verify the product and whether or not it is appropriate</li>
+                    <li>Next, after certification we would like you to ship the product to our NGO (the address can be found on our about us page)</li>
+                    <li>After successfully receiving your product we will put up your post for public viewing</li>
+                    <li>At last, when the product is been given to the person/people in need you will recieve a certificate and a proof of Donation</li>
+                </ol>
+            </p>
+            <h3>We can't thank you enough for this kind donation! Someone, Somewhere, thanks you too!</h3>
+            <button onclick="window.location.href = 'Dashboard.html';">Home Page</button>
+        </div>
+    </body>
+</html>
