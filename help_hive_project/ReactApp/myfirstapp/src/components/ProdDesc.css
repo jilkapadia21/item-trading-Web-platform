@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+  }
+  
+.product-details {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+  }
+  .product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .product-details p {
+    margin-bottom: 10px;
+  }
+  .product-details .description {
+    margin-bottom: 10px;
+  }
+
+  .donators-information {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+  }
+  .donators-information h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .donators-information h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .donators-information p.details {
+    margin-bottom: 10px;
+  }
+  .donators-information button {
+    margin-top: 10px;
+  }
+
+  /* Style for the thumbnail images */
+  .carousel-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .carousel-thumbnail img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin: 0 3px;
+  }
+  .carousel-thumbnail img.active {
+    border-color: #3b73ec;
+    color: #f8f9fa;
+  }
+  .carousel-item img {
+    width: 100%; /* Adjust width */
+    height: 300px; /* Adjust height */
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1) brightness(80%); /* Adjust brightness as per your preference */
+    transition: all 0.3s ease;
+  }
+  
+  nav a.btn {
+    background-color: #3168e0;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  nav a.btn:hover {
+    background-color: #125ba8;
+    color: white;
+  }
+  .btn {
+    background-color: #e4bf44;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 20px;
+  }
+
+  .btn:hover {
+    background-color: #007bff;
+    color: white;
+  }

@@ -1,0 +1,113 @@
+/* Header styles */
+.bg-dark {
+    background-color: #000;
+    padding-left: 30px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: between;
+    align-items: center;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .search-form .form-control {
+    padding-right: 40px;
+  }
+  
+  .search-form .btn-search {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .search-icon {
+    width: 25px;
+    height: 25px;
+    fill: rgb(2, 0, 0);
+  }
+  
+  .product button {
+    border-radius: 20px;
+    background-color: #e4bf44;
+    color: #000;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease,
+      transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product button:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .dropdown-item {
+    color: #000000;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 95%; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    padding: 40px;
+    text-align: center;
+    
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  /* Add more styling as desired */
+    /* Add this CSS to your existing styles */
+
+/* CSS to style the dropdown options and items */
+
+/* Style the dropdown options */
+.dropdown .dropdown-menu {
+    border: none;
+  }
+  
+  /* Style the dropdown option items */
+  .dropdown .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Style the dropdown item on hover */
+  .dropdown .dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Adjust the background color on hover */
+    color: #007BFF; /* Adjust the text color on hover */
+  }
+  
+  
